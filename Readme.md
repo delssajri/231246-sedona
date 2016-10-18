@@ -1,7 +1,7 @@
 # Личный проект «Седона»
 
 * Студент: [Татьяна Дроздова](https://up.htmlacademy.ru/htmlcss/15/user/231246).
-* Наставник: `Неизвестно`.
+* Наставник: [Николай Маркелов](https://htmlacademy.ru/profile/nicolamarkelov).
 
 ---
 
