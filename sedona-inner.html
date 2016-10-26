@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+   	<meta charset="utf-8">
+  	<title>Sedona</title>
+  </head>
+  <body>
+  	<header class="main-header">
+   		<div class="container">
+   			<nav class="main-navigation">
+          <ul>
+   				  <li>
+   					  <a href="#">Информация</a>
+   				  </li>
+   				  <li>
+   					  <a href="#">Фото и видео</a>
+   				  </li>
+   				  <li>
+   					  <a href="#">Карта штата</a>
+   				  </li>
+   				  <li>
+   					  <a href="#">Гостиницы</a>
+   				  </li>	
+          </ul>  
+   			</nav>
+   		</div>
+   	</header>
+    <main class="main-container">
+      <div class="choose-hotel">
+        <p>Инфраструктура:</p>
+        <form class="form-choose" action="https://htmlacademy.ru" method="get">
+          <input type="checkbox" name="pool" id="pool-field" checked>
+          <label for="pool-field">Бассейн</label>
+          <input type="checkbox" name="parking" id="parking-field">
+          <label for="parking-field">Парковка</label>
+          <input type="checkbox" name="wifi" id="wifi-field">
+          <label for="wifi-field">Wi-fi</label>
+        </form>
+        <p>Тип жилья:</p>
+        <form class="form-choose" action="https://htmlacademy.ru" method="get">
+          <input type="checkbox" name="hotel" id="hotel-field" checked>
+          <label for="hotel-field">Гостиница</label>
+          <input type="checkbox" name="motel" id="motel-field" checked>
+          <label for="motel-field">Мотель</label>
+          <input type="checkbox" name="apartment" id="apartment-field" checked>
+          <label for="apartment-field">Апартаменты</label>
+        </form>
+        <form class="form-choose" action="https://htmlacademy.ru" method="get">
+          <p>Стоимость в сутки (Р):</p>
+          <input type="range" min="0" max="3000">
+          <a href="#" class="show-result">Показать</a>
+        </form>
+      </div>
+      <div class="search-hotel">
+        <h1>Найдено 3:</h1>
+        <p>Сортировка:</p>
+        <nav class="search-hotel-menu">
+          <ul>
+            <li>
+              <a href="#">По цене:</a>
+            </li>
+            <li>
+              <a href="#">По типу:</a>
+            </li>
+            <li>
+              <a href="#">По рейтингу:</a>
+            </li>    
+          </ul>
+        </nav>
+      </div> 
+      <div class="hotels-found">
+        <article class="hotel amara">
+          <img src="http://placehold.it/150x100" width="150" height="100" alt="Amara foto">
+          <p>Amara resort & spa</p>
+          <p>Гостиница</p>
+          <p>От 3500 р.</p>
+          <a href="#" class="btn btn-detail">Подробнее</a>
+          <a href="#" class="btn book">Забронировать</a>
+          <p class="rating">Рейтинг: 8,5</p>
+        </article>
+        <article class="hotel desert">
+          <img src="http://placehold.it/150x100" width="150" height="100" alt="Desert foto">
+          <p>Desert quail inn</p>
+          <p>Мотель</p>
+          <p>От 2000 р.</p>
+          <a href="#" class="btn btn-detail">Подробнее</a>
+          <a href="#" class="btn book">Забронировать</a>
+          <p class="rating">Рейтинг: 8,9</p>
+        </article>
+        <article class="hotel villas">
+          <img src="http://placehold.it/150x100" width="150" height="100" alt="Villas foto">
+          <p>Villas at poco diablo</p>
+          <p>Аппартаменты</p>
+          <p>От 4000 р.</p>
+          <a href="#" class="btn btn-detail">Подробнее</a>
+          <a href="#" class="btn book">Забронировать</a>
+          <p class="rating">Рейтинг: 9,2</p>
+        </article>
+      </div> 
+    </main>
+    <footer class="main-footer">
+      <div class="container">
+        <p>&#35;visitsedona</p>
+        <a href="#" class="btn btn-social btn-social-tv">Твиттер</a>
+        <a href="#" class="btn btn-social btn-social-vk">В контакте</a>
+        <a href="#" class="btn btn-social btn-social-yt">Youtube</a>
+      </div>
+    </footer>
+  </body>
+</html>    
