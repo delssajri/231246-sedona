@@ -28,8 +28,9 @@ h2 {
 	background-position: top;
 	background-repeat: no-repeat;
 }
-.header {	
+.inner-header {	
 	height: 270px;
+	width: 1200px;
 	background-image: url("../img/header-sedona.jpg");
 	background-position: top;
 	background-repeat: no-repeat;
@@ -160,16 +161,19 @@ h2 {
 
 .filter-hotels {
 	min-height: 217px;
-	margin: 0px;
-	padding: 0px;
+	width: 1060px;
+	margin: 0px auto;
+	padding-left: 70px;
+	padding-right: 70px;
 
 }
 
 .filter-row {
-	width: 313px;
+	width: 240px;
 	min-height: 217px;
 	float: left;
 	font-size: 14px;
+	margin: 0px;
 }
 .filter-row ul {
 	margin: 0px;
@@ -178,11 +182,11 @@ h2 {
 		}
 
 .options {
-	width: 288px;
+	width: 240px;
 	min-height: 217px;
 	float: left;
-	margin-right: 200px;
 	font-size: 14px;
+	margin: 0px;
 }
 .options ul{
 	margin: 0px;
