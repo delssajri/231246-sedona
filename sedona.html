@@ -3,12 +3,13 @@
   <head>
    	<meta charset="utf-8">
   	<title>Sedona</title>
+    <link href="css/normalize.css" rel="stylesheet">
     <link href="css/style.css" rel="stylesheet">
   </head>
   <body>
   	<header class="main-header">
-   		<div class="container">
-        <a class="logo" href="#">Логотип</a>
+   		<div class="container clearfix">
+        <!-- <a class="logo" href="#">Логотип</a> -->
    			<nav class="main-navigation">
    				<ul>
    					<li>
@@ -27,60 +28,65 @@
    			</nav>
    		</div>
    	</header>
-   	<main class="main-container">
-   		<h2>Седона-небольшой городок в Аризоне, заслуживающий большего!</h2>
-   		<p>Рассмотрим 5 причин, по которым Седона круче, чем Гранд Каньен!</p>
+   	<main class="container clearfix">
+      <div class="about-sedona">
+   		  <h2>Седона-небольшой городок в Аризоне,<br> заслуживающий большего!</h2>
+   		  <p>Рассмотрим 5 причин, по которым Седона круче, чем Гранд Каньен!</p>
+      </div>
    		<div class="bar barfeature-1">
-   			<div class="block">
+   			<div class="block-1">
    				<p class="block-heading">Настоящий городок</p>
    				<p class="num">-&#8470;1-</p>
-   				<p class="block-text">Седона-не аттракцион для туристов, там течет своя жизнь</p>
+   				<p class="block-text">Седона-не аттракцион для туристов,<br> там течет своя жизнь</p>
    			</div>
       </div> 
+      <div class="benefit-container">
       <div class="benefit">  
    			<div class="block-icon"></div>
    			<p class="block-heading">Жилье</p>
-   			<p class="block-text">Рекомендуем пожить в настоящем отеле, все как в кино!</p>
+   			<p class="block-text">Рекомендуем пожить в настоящем мотеле,<br> все как в кино!</p>
    		</div>
    		<div class="benefit">
         <div class="block-icon"></div>
    			<p class="block-heading">Еда</p>
-   			<p class="block-text">Всегда заказывайте фирменный бургер, вы не разочаруетесь!</p>
+   			<p class="block-text">Всегда заказывайте фирменный бургер,<br> вы не разочаруетесь!</p>
    		</div>
    		<div class="benefit">
         <div class="block-icon"></div>
    			<p class="block-heading">Сувениры</p>
-   			<p class="block-text">Не только китайского, но и местного производства!</p>
+   			<p class="block-text">Не только китайского, но и местного<br> производства!</p>
    		</div>
+      </div>
    		<div class="bar barfeature-2">
-        <div class="block">
+        <div class="block-2">
    			  <p class="block-heading">Там есть мост дьявола</p>
    			  <p class="num">-&#8470;2-</p>
    			  <p class="block-text">Да, по нему можно пройти! Если конечно вы осмелитесь</p>
         </div>  
-   		</div>	
-   		<div class="block">
+   		</div>
+      <div class="bar benefit-container">	
+   		<div class="benefit">
    			<p class="block-heading">Небольшая площадь</p>
    			<p class="num">-&#8470;3-</p>
    			<p class="block-text">Все достопримечательности находятся очень близко</p>
    		</div>
-   		<div class="block">
+   		<div class="benefit">
    			<p class="block-heading">Красивая дорога</p>
    			<p class="num">-&#8470;4-</p>
    			<p class="block-text">Ехать в Седону из Лас-Вегаса совсем не скучно</p>
    		</div>
-   		<div class="block">
+   		<div class="benefit">
    			<p class="block-heading">Мало туристов</p>
    			<p class="num">-&#8470;5-</p>
    			<p class="block-text">Большинство едет в гранд каньен и толпится там</p>
-   		</div>	
+   		</div>
+      </div>	
    		<div class="choose-hotel">
-   			<b>Заинтересовались?</b>
-   			<p>Укажите предполагаемые даты поездки, и мы покажем вам лучшие предложения гостиниц в Седоне</p>
-   			<a href="#" class="map"><img src="map.jpg" alt="map Sedona"></a>
+   			<p>Заинтересовались?</p>
+   			<p class="choose-date">Укажите предполагаемые даты поездки,<br> и мы покажем вам лучшие предложения гостиниц в Седоне</p>
    			<div class="search-form">
    				<a class="link-hotel" href="#">Поиск гостиницы в Седоне</a>
-   				<form action="https://htmlacademy.ru" method="get">
+   				<form class="hotel" action="https://htmlacademy.ru" method="get">
             <fieldset class="form-row">
               <label class="form-label" for="date-in">Дата выезда:</label>
               <input type="date" name="date-in" id="date-in" value="2016-04-24">
@@ -109,6 +115,7 @@
    		</div>
    	</main>
    	<footer class="main-footer">
+    <div class="container clearfix">
    		<div class="footer-hashtag">
    			<a href="#">&#35;visitsedona</a>
       </div>
@@ -128,7 +135,8 @@
       <div class="footer-copyright">
         <span>websity by</span>
         <a class="logo-htmlacademy" href="#">Лого-htmlacademy</a>
-      </div>      
+      </div> 
+      </div>     
    	</footer>		
    </body>
 </html>   	
